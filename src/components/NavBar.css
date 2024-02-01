@@ -1,8 +1,9 @@
 /* Add a black background color to the top navigation */
 .NavBar {
-    height: 10vh;
+    height: 50px;
 }
 .NavBar ul {
+    height: 50px;
     list-style-type: none;
     margin: 0;
     padding: 0;

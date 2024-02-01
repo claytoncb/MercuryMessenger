@@ -1,0 +1,71 @@
+.SearchBar {
+    width: 40vw;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.SearchBar input[type=text] {
+    margin-top: 5px;
+    background-color: #ccded2f0;
+    outline:5px solid #1b211d;
+    border-radius: 15px;
+    height: 38px;
+    width: 40%;
+    border: none;
+    font-size: 17px;
+}
+
+.SearchBar button {
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 20%;
+    height: 50px;
+    background: #1b211d;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: #acc7ab;
+}
+
+.SearchBar button:hover {
+    background: #0e1210;
+}
+
+.InboxSideBar {
+    width: 40vw;
+}
+
+.MessagesList {
+    max-height: calc(100vh - 50px);
+    overflow-y: scroll;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.MessageItem {
+    margin-bottom: .75rem;
+    padding: 1rem;
+    border-radius: 15px;
+    height: 4.25rem;
+    overflow: hidden;
+    text-align: left;
+    background-color: #acc7ab;
+}
+
+.MessageItem:first-child {
+    margin-top: 60px;
+}
+
+.MessageItem .SubjectSmall{
+    font-weight: 500;
+}
+
+.MessageItem .FromSmall{
+    font-weight: 900;
+}
+
+.MessageItem:hover {
+    background-color: #97b096;
+}

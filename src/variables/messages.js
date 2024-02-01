@@ -48,5 +48,15 @@ export const messages = [
       from: "feedback@company.com",
       subject: "Customer Feedback Survey",
       body: "Dear valued customer, We would love to hear your feedback! Please take a moment to fill out our customer satisfaction survey. Your input is important to us as we strive to improve our products and services."
+    },
+    {
+      from: "newsletter@example.com",
+      subject: "Special Edition: In-Depth Analysis",
+      body: "Greetings, dear subscribers! In this special edition of our newsletter, we bring you an in-depth analysis of the latest industry trends and market dynamics. Our team has researched and compiled comprehensive insights to help you stay ahead of the curve.\n\nWe delve into the intricacies of emerging technologies, discuss potential challenges, and provide expert opinions from industry leaders. Grab a cup of coffee, sit back, and immerse yourself in this insightful journey!\n\nAdditionally, we have exclusive interviews with thought leaders and a roundup of noteworthy articles from the past month. We hope you find this edition both informative and engaging.\n\nAs always, thank you for being part of our community. Your feedback is invaluable, and we look forward to hearing your thoughts on this special edition.\n\nBest regards,\nThe Newsletter Team"
+    },
+    {
+      from: "ceo@company.com",
+      subject: "Quarterly Report and Strategic Vision",
+      body: "Dear [Company] Team,\n\nI hope this message finds you well. As we approach the end of the quarter, I wanted to take a moment to reflect on our achievements and share insights into our strategic vision moving forward.\n\nOver the past three months, our dedicated teams have worked tirelessly to meet and exceed our goals. Our financial performance has shown positive trends, and customer satisfaction remains a top priority. I want to express my gratitude to each team member for their hard work and commitment to our shared success.\n\nLooking ahead, we are embarking on an exciting journey of growth and innovation. Our strategic vision includes expanding into new markets, investing in research and development, and fostering a culture of continuous improvement. We are confident that these initiatives will position us as a leader in our industry.\n\nI encourage open communication and collaboration as we navigate these opportunities and challenges together. Your input is crucial, and I welcome any thoughts or ideas you may have. Let's continue to build a thriving future for [Company]!\n\nThank you for your dedication and contribution to our shared success.\n\nBest regards,\n[CEO's Name]\n[Company] CEO"
     }
   ];

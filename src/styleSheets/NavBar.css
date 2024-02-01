@@ -1,0 +1,27 @@
+/* Add a black background color to the top navigation */
+.NavBar {
+    height: 10vh;
+}
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b211d;
+}
+  
+.NavBar li {
+    float: right;
+}
+  
+.NavBar li a {
+    display: block;
+    color: #acc7ab;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.NavBar li:hover {
+    background-color: #0e1210;
+}
